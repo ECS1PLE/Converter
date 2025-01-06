@@ -153,8 +153,7 @@ const CurrencyConverter: React.FC = () => {
       <h2 style={{ marginTop: "20px" }}>
         {result !== null ? (
           <>
-            Result:{" "}
-            <span style={{ color: "#007bff" }}>{result.toFixed(2)}</span>{" "}
+            Курс: <span style={{ color: "grey" }}>{result.toFixed(2)}</span>{" "}
             {toCurrency}
           </>
         ) : (

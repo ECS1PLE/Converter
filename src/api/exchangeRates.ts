@@ -15,7 +15,7 @@ export const fetchExchangeRates = async (): Promise<CurrencyData> => {
       rates: response.data.conversion_rates,
     };
   } catch (error) {
-    console.error("Error fetching exchange rates:", error);
+    console.error("Ошибка:", error);
     throw error;
   }
 };
